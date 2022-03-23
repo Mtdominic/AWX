@@ -2,5 +2,8 @@
 
 import json
 
-hosts = '10.10.10.247';
-print json.dumps({'all': hosts, '_meta': {'hostvars': {}}})
+host_list = ['10.10.10.140'.format(i) for i in range(11)]
+
+r = {'_meta': {'hostvars': {}}, 'all': {'hosts': host_list}}
+
+json.dumps(r)
