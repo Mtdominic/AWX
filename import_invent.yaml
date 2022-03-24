@@ -1,4 +1,5 @@
 [Infra_Wew_Dev/Test]
 
+10.10.10.148         ansible_host=10.10.10.148
 10.10.10.149         ansible_host=10.10.10.149
 
