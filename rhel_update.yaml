@@ -1,4 +1,3 @@
----
 - name: Upgrade and Reboot RHEL & Debian family Linux distros
   hosts: all
   vars:
