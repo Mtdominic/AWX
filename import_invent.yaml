@@ -5,4 +5,5 @@
 10.10.10.150         ansible_host=10.10.10.150
 
 [Infra_Wew_Dev_Windows]
-10.20.20.222 ansible_host=10.20.20.222
+
+10.20.20.222         ansible_host=10.20.20.222
